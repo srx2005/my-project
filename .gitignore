@@ -1,10 +1,5 @@
-# Compiled class files
+# 编译产物
 *.class
-
-# Log files
-*.log
-
-# Package files
 *.jar
 *.war
 *.nar
@@ -30,23 +25,122 @@ buildNumber.properties
 *.iml
 *.ipr
 *.iws
-
-# Eclipse
+.vscode/
 .settings/
 .project
 .classpath
 bin/
 
+# Eclipse
+.metadata/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+.recommenders/
+
+# IntelliJ IDEA
+*.iws
+.idea/
+out/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# VS Code
+.vscode/
+*.code-workspace
+
 # Spark checkpoint
 checkpoint/
 
-# Data files
+# 日志文件
+*.log
+logs/
+*.log.*
+
+# 数据文件
 *.txt
+*.csv
+*.data
+data/
+*.sql
 
-# OS files
-.DS_Store
-Thumbs.db
+# 配置文件（包含敏感信息）
+config/
+*.properties
+*.env
+.env
+.env.local
+.env.*.local
+application*.yml
+application*.yaml
+*.conf
 
-# Experiment reports (exclude from push)
+# 实验报告文件
 *.docx
 *.pdf
+*.doc
+*.ppt
+*.pptx
+*.xlsx
+*.xls
+
+# 操作系统文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# 临时文件
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# 缓存目录
+.cache/
+node_modules/
+bower_components/
+
+# 个人开发文件
+*.swp
+*.swo
+*~
+*.pid
+*.seed
+*.pid.lock
+
+# 证书与密钥
+*.key
+*.pem
+*.crt
+*.jks
+*.p12
+*.pfx
+
+# 备份文件
+*.bak
+*.backup
+*.old
+
+# 测试覆盖率
+coverage/
+.nyc_output/
+
+# 临时数据
+tmp/
+temp/
